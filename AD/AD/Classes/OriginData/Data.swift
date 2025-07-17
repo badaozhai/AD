@@ -38,7 +38,7 @@ extension URL{
         let allowedCharacterSet = CharacterSet(charactersIn: "!*'();:@&=+$,/?%#[] ").inverted
         if let escapedString = string.addingPercentEncoding(withAllowedCharacters: allowedCharacterSet) {
            print(escapedString)
-            let url = URL.init(string: escapedString ?? "")
+            let url = URL(string: escapedString)
             return url
         }
         

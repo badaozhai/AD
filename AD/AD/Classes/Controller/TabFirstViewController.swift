@@ -12,6 +12,7 @@ import Kingfisher
 class TabFirstViewController: UITableViewController {
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
     
