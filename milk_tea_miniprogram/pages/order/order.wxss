@@ -1,0 +1,2 @@
+.container { padding: 20rpx; }
+.item { margin: 10rpx 0; }

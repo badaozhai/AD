@@ -1,0 +1,4 @@
+<view class="container">
+  <button bindtap="scanCode">扫码下单</button>
+  <button bindtap="goDelivery">外卖下单</button>
+</view>

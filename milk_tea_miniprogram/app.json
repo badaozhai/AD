@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/order/order",
+    "pages/payment/payment",
+    "pages/queue/queue"
+  ],
+  "window": {
+    "navigationBarTitleText": "Milk Tea Shop"
+  }
+}
