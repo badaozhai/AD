@@ -1,0 +1,7 @@
+<view class="container">
+  <radio-group bindchange="choosePay">
+    <label><radio value="wechat"/>微信支付</label>
+    <label><radio value="card"/>信用卡支付</label>
+  </radio-group>
+  <button bindtap="pay">支付</button>
+</view>

@@ -1,0 +1,7 @@
+<view class="container">
+  <view wx:for="{{items}}" wx:key="name" class="item">
+    <text>{{item.name}} - {{item.price}}元</text>
+    <button size="mini" data-name="{{item.name}}" bindtap="addCart">+</button>
+  </view>
+  <button bindtap="goPay">去支付</button>
+</view>

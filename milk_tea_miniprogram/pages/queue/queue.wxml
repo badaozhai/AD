@@ -1,0 +1,3 @@
+<view class="container">
+  <text>您的订单号：{{orderNumber}}</text>
+</view>
